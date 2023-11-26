@@ -9,6 +9,6 @@ namespace WeddingManagementSystem
     interface IActionSaveUpdate
     {
         public int Create(PostUserDTO post);
-        public int Update();
+        public int Update(PutUserDTO put);
     }
 }

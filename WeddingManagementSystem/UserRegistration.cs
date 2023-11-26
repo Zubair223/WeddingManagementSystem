@@ -36,6 +36,10 @@ namespace WeddingManagementSystem
         public string Gender { get; set; }
         public string Address { get; set; }
         public string Number { get; set; }
+        public string Pincode { get; set; } = "190002";
+
+
+        
     }
     /// <summary>
     /// Post Means create
@@ -50,7 +54,7 @@ namespace WeddingManagementSystem
     /// </summary>
     class PutUserDTO : PostUserDTO
     {
-        public int RoleID { get; set; }
+        public int UserID { get; set; }
     }
     /// <summary>
     /// List means Show select
